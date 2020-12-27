@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/start"
+    tools:context="com.example.vic.pinata_trial.MainActivity">
+
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="344dp"
+        android:layout_height="79dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="38dp"
+        android:layout_marginBottom="247dp"
+        android:contentDescription="@string/Music"
+        app:srcCompat="@android:drawable/editbox_dropdown_light_frame" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="158dp"
+        android:layout_height="63dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="13dp"
+        android:layout_marginBottom="118dp"
+        android:contentDescription="@string/Music"
+        app:srcCompat="@android:drawable/editbox_dropdown_light_frame" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="198dp"
+        android:layout_height="74dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="226dp"
+        android:layout_marginBottom="114dp"
+        android:contentDescription="@string/new_game"
+        app:srcCompat="@android:drawable/editbox_background" />
+
+</RelativeLayout>
